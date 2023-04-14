@@ -1,0 +1,29 @@
+.forgot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+  margin: 100px auto auto auto;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+.reset-button {
+  border-radius: 20px;
+  height: 30px;
+  width: 200px;
+  margin: auto;
+  border: none;
+  background: linear-gradient(to bottom, #4f33c0 0%, #ed1bea3b 100%);
+}
+.reset-input {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  width: 250px;
+}
+.passwordStatus {
+  visibility: hidden;
+}

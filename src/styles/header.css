@@ -1,0 +1,9 @@
+.navbar {
+  height: 30px;
+  width: 100%;
+
+  text-align: left;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 10px;
+}

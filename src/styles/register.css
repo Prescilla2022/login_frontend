@@ -1,0 +1,13 @@
+.register {
+  width: 200px;
+  height: 300px;
+  margin: 100px auto auto auto;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+.modal {
+  font-size: 8px;
+  color: rgb(231, 32, 32);
+}
