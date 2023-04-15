@@ -45,7 +45,7 @@ export default function Login() {
     }
     console.log(cookie);
 
-    const url = "https://login-back-6xcc.onrender.com/login";
+    const url = "http://localhost:10000/login";
     const requestOptions = {
       method: "POST",
       headers: {
