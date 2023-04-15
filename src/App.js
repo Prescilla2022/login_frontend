@@ -24,7 +24,7 @@ function App() {
       <Routes>
         <Route path="/LoginSystem_Mern/Register" element={<Register />} />
         <Route path="/Success" element={<Success />} />
-        <Route path="/LoginSystem_Mern/Home" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
 
         <Route path="/LoginSystem_Mern/Forgot" element={<Forgot />} />
 
