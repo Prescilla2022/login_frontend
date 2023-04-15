@@ -35,7 +35,7 @@ export default function ResetNewPassword() {
     event.preventDefault();
     const passwordMatch = password === confirmPassword;
     console.log(passwordMatch);
-    const url = "http://localhost:3500/updatePassword";
+    const url = "https://login-back-6xcc.onrender.com/updatePassword";
     const requestOptions = {
       method: "POST",
       headers: {
