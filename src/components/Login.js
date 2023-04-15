@@ -49,7 +49,7 @@ export default function Login() {
     const requestOptions = {
       method: "POST",
       headers: {
-        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Origin": "localhost:3000",
         "content-type": "application/json",
       },
       body: JSON.stringify(formData),
