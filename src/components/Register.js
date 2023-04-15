@@ -30,9 +30,9 @@ export default function Register() {
     const url = "https://login-back-6xcc.onrender.com/register";
     const requestOptions = {
       method: "POST",
-      method:"no-cors",
+      
       headers: {
-        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Origin": "localhost:3000",
         "content-type": "application/json",
       },
       body: JSON.stringify(formData),
