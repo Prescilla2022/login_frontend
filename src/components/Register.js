@@ -27,7 +27,7 @@ export default function Register() {
     event.preventDefault();
     const passwordMatch = formData.password === formData.confirmPassword;
     console.log(passwordMatch);
-    const url = "http://localhost:3500/register";
+    const url = "https://login-back-6xcc.onrender.com/register";
     const requestOptions = {
       method: "POST",
       headers: {
