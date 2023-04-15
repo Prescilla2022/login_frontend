@@ -61,7 +61,7 @@ export default function Login() {
         if (response.status === 200) {
           //console.log(response);
           //swal("Logged In successfully");
-          navigate("/Home");
+          navigate("/LoginSystem_Mern/Home");
         } else {
           swal("Please enter a valid username and password");
         }
