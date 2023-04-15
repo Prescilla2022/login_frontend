@@ -12,7 +12,7 @@ export default function Forgot() {
   async function handleSubmit(event) {
     event.preventDefault();
 
-    const url = "http://localhost:3500/resetPassword";
+    const url = "https://login-back-6xcc.onrender.com/resetPassword";
     const requestOptions = {
       method: "POST",
       headers: {
